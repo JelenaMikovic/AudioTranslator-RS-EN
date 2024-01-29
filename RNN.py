@@ -225,7 +225,7 @@ def build_model(input_dim, output_dim, rnn_layers=5, rnn_units=128):
 
 def decode_batch_predictions(pred):
     input_len = np.ones(pred.shape[0]) * pred.shape[1]
-    results = tf.keras.backend.ctc_decode(pred, input_length=input_len, greedy=False)[0][0]
+    results = tf.keras.backend.ctc_decode(pred, input_length=input_len, greedy=True)[0][0]
 
     output_text = []
     for result in results:
