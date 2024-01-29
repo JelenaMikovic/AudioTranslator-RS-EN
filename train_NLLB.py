@@ -1,8 +1,4 @@
-!pip install datasets
-! pip install -U accelerate
-! pip install -U transformers
 from torch.utils.data import Dataset
-!pip install sentencepiece
 import sentencepiece
 from transformers import M2M100ForConditionalGeneration, M2M100Tokenizer
 !pip install accelerate -U
