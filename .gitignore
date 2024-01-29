@@ -156,6 +156,7 @@ asr_model.h5
 data
 mms-tts-eng/pytorch_model.bin
 nllb-200-distilled-1.3B/pytorch_model.bin
+m2m-finetuned-418M/model.safetensors
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
