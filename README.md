@@ -10,7 +10,7 @@ Audio Recognition: Google Fleurs Dataset
 We filter and process audio and textual materials in the Serbian language from the dataset. Specifically, we developed a model for translating audio recordings into textual format and training on relevant data. The generated text is then translated into the target language (in this case English). Finally, the translated text is transformed into audio using a pre-trained and optimized text-to-speech model.
 
 - Evaluation:
-Performance metrics like Word Error Rate (WER) will be employed to evaluate the models.
+Performance metric Word Error Rate (WER) is used to evaluate the models.
 
 - Models:
 1. For Translation: Facebook NLLB-200 Distilled 1.3B
